@@ -14,7 +14,7 @@
 		17DE72F422B36E7500268304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DE72F222B36E7500268304 /* LaunchScreen.storyboard */; };
 		17DE72FF22B36E7600268304 /* DateExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DE72FE22B36E7600268304 /* DateExtensionTests.swift */; };
 		17DE730A22B36E7600268304 /* DateExtensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DE730922B36E7600268304 /* DateExtensionUITests.swift */; };
-		17DE731822B36EBA00268304 /* DateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DE731722B36EBA00268304 /* DateClass.swift */; };
+		17DE731B22B379C300268304 /* DateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DE731A22B379C300268304 /* DateClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		17DE730522B36E7600268304 /* DateExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DE730922B36E7600268304 /* DateExtensionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensionUITests.swift; sourceTree = "<group>"; };
 		17DE730B22B36E7600268304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17DE731722B36EBA00268304 /* DateClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateClass.swift; sourceTree = "<group>"; };
+		17DE731A22B379C300268304 /* DateClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				17DE72E922B36E7300268304 /* AppDelegate.swift */,
 				17DE72EB22B36E7300268304 /* ViewController.swift */,
-				17DE731722B36EBA00268304 /* DateClass.swift */,
+				17DE731922B379C300268304 /* Classes */,
 				17DE72ED22B36E7300268304 /* Main.storyboard */,
 				17DE72F022B36E7500268304 /* Assets.xcassets */,
 				17DE72F222B36E7500268304 /* LaunchScreen.storyboard */,
@@ -126,6 +126,14 @@
 				17DE730B22B36E7600268304 /* Info.plist */,
 			);
 			path = DateExtensionUITests;
+			sourceTree = "<group>";
+		};
+		17DE731922B379C300268304 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				17DE731A22B379C300268304 /* DateClass.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17DE731822B36EBA00268304 /* DateClass.swift in Sources */,
 				17DE72EC22B36E7300268304 /* ViewController.swift in Sources */,
+				17DE731B22B379C300268304 /* DateClass.swift in Sources */,
 				17DE72EA22B36E7300268304 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
